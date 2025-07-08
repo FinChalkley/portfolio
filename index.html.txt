@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
+    .project { margin-bottom: 40px; }
+    img { max-width: 400px; display: block; margin-top: 10px; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>My Projects</h1>
+
+  <div class="project">
+    <h2><a href="https://github.com/GAMR3521/coursework-startpoint-FinChalkley.git">OpenGL Renderer</a></h2>
+    <p>A real-time renderer with a skybox, shadows, PBR, post processing, geometry, tesselation and compute shaders. As well as SSBOs, noise maps and texture blending. </p>
+    <img src="assets/project1.gif" alt="Project 1 GIF" />
+  </div>
+
+  <div class="project">
+    <h2><a href="https://github.com/yourusername/project2">OpenGL Performant Renderer</a></h2>
+    <p>My Adding feature to a Open GL renderer to help improve the efficiency of it. This included swapping from actors to entities, reducing cpu bindings, memory management, CPU culling, LOD and instanced rendering</p>
+    <img src="assets/project2.gif" alt="Project 2 GIF" />
+  </div>
+</body>
+</html>
