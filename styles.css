@@ -146,7 +146,7 @@ ul li a:hover {
 
 .subtitle {
   letter-spacing: 2px;
-  color: var(--text-dark);
+  color: var(--primary-color-dark);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -182,7 +182,7 @@ ul li a:hover {
 
 .description {
   line-height: 1.5rem;
-  color: var(--text-dark);
+  color: var(--primary-color-dark);
   margin-bottom: 2rem;
 }
 
