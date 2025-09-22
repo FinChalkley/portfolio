@@ -4,32 +4,108 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-  <style>
-    body { font-family: sans-serif; padding: 20px; background: #f4f4f4; }
-    .project { margin-bottom: 40px; }
-    img { max-width: 400px; display: block; margin-top: 10px; border: 1px solid #ccc; }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>My Projects</h1>
-
-  <div class="project">
-    <h2><a href="https://github.com/GAMR3521/coursework-startpoint-FinChalkley.git">OpenGL Renderer</a></h2>
-    <p>A real-time renderer with a skybox, shadows, PBR, post processing, geometry, tesselation and compute shaders. As well as SSBOs, noise maps and texture blending. </p>
-    <img src="assets/graphicsProgramming.gif" alt="Project 1 GIF" />
-  </div>
-
-  <div class="project">
-    <h2><a href="https://github.com/yourusername/project2">OpenGL Performant Renderer</a></h2>
-    <!--<img src="assets/project2.gif" alt="Project 2 GIF" />-->
-    <p>My Adding feature to a Open GL renderer to help improve the efficiency of it. This included swapping from actors to entities, reducing cpu bindings, memory management, CPU culling, LOD and instanced rendering</p>
-  </div>
   
-  <div class="project">
-    <h1>On going Development</h1>
+    <!-- 
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="index.html">Finlay</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  -->
 
-    <h2><a href="https://github.com/FinChalkley/Escape-The-Dungeon">3D unity dungeon crawler</a></h2>
-    <p>This is a remake of my final year develoment project changing some of the concepts of the privious game, namely, the level gearation and the way the inventory works. More info in the README.</p>
-  </div>
+  <section class="section" id="home">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">HELLO</p>
+        <h1 class="title">
+          I'm <span>Fin<br></span>a Games Programmer
+        </h1>
+        <p class="description">
+          Welcome to my portfolio! I'm a Computer Games Programming graduate from De Montfort University.
+        </p>
+        <div class="socialMediaIcons">
+          <a href="https://www.linkedin.com/in/finlay-chalkley-483446333" target="_blank">
+            <img class="socialMediaIcon" src="images/linkedIn.png" />
+          </a>
+          <a href="https://github.com/FinChalkley" target="_blank">
+            <img class="socialMediaIcon" src="images/github.png" />
+          </a>
+        </div>
+      </div>
+      <!-- 
+        <div class="image">
+          <img src="images/profile.jpg" alt="profile" />
+        </div>
+      -->
+    </div>
+
+  </section>
+  <section class="section" id="portfolio">
+    <h2 class="sectionTitle">Past Projects</h2>
+    <div class="contactContainer">
+      <div class="contentPortfolio">
+        <div class="project-grid">
+
+          <a href="https://github.com/FinChalkley/OpenGL-Renderer" class="project-card">
+            <img src="assets/graphicsProgramming.gif" alt="Project 1 GIF">
+            <div class="card-content">
+              <h3>OpenGL Renderer</h3>
+              <p>A University project to learn GLSL and the render pipeline with focus on graphical Programming.</p>
+              <span class="tag yellow">November 2024 - January 2025</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="sectionTitle">Current Projects</h2>
+    <div class="contactContainer">
+      <div class="contentPortfolio">
+        <div class="project-grid">
+
+          <a href="" class="project-card">
+            <div class="card-content">
+              <h3>3D Unity Dungeon Crawler</h3>
+              <p>This is a remake of my final year development project changing some of the concepts of the previous game, namely, the level generation and the way the inventory works. More info in the README.</p>
+              <span class="tag yellow">July 2025 - ongoing</span>
+            </div>
+          </a>
+
+          <a href="" class="project-card">
+            <div class="card-content">
+              <h3>Leadonites Basketball website</h3>
+              <p>Building a website for my local basketball club to be able to showcase result and club news.</p>
+              <span class="tag yellow">August 2025 - ongoing</span>
+            </div>
+          </a>
+
+          <a href="" class="project-card">
+            <div class="card-content">
+              <h3>3D adventure game</h3>
+              <p>This is project I am working on along with my friend from my university course which we hope to be able to release sometime within the next year.</p>
+              <span class="tag yellow">september 2025 - ongoing</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+          
+  </section>
 </body>
 </html>
