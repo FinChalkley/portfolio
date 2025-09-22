@@ -12,7 +12,7 @@
 <body>
   <div id="vantajs"></div>
 
-    <!-- 
+ 
   <nav>
     <div class="nav__content">
       <div class="logo"><a href="index.html">Finlay</a></div>
@@ -23,21 +23,18 @@
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
-  -->
+
 
   <section class="section" id="home">
     <div class="section__container">
       <div class="content">
         <p class="subtitle">HELLO</p>
         <h1 class="title">
-          I'm <span>Fin<br></span>a Games Programmer
+          I'm <span>Finlay<br></span>a Games Programmer
         </h1>
         <p class="description">
           Welcome to my portfolio! I'm a Computer Games Programming graduate from De Montfort University.
@@ -51,11 +48,6 @@
           </a>
         </div>
       </div>
-      <!-- 
-        <div class="image">
-          <img src="images/profile.jpg" alt="profile" />
-        </div>
-      -->
     </div>
 
   </section>
@@ -108,8 +100,31 @@
 
         </div>
       </div>
+    </div>        
+  </section>
+
+
+  <section class="section" id="contact">
+    <h2 class="sectionTitle">Contact Me</h2>
+    <div class="contactContainer">
+      <div class="contentContact">
+        <form action="https://formspree.io/f/xkgqwyaz" method="POST" class="contactForm" autocomplete="off" id="contactForm">
+          <div class="formGroup">
+            <label class="dark-text" for="name">Name / company</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="formGroup">
+            <label class="dark-text" for="email">Email</label>
+            <input type="email" id="email" name="_replyto" required />
+          </div>
+          <div class="formGroup">
+            <label class="dark-text" for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submitButton">Send</button>
+        </form>
+      </div>
     </div>
-          
   </section>
 </body>
 </html>

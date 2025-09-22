@@ -9,4 +9,8 @@ window.addEventListener("DOMContentLoaded", () => {
     skyColor: 0x1488cc,
     cloudColor: 0x6dd5fa
   });
+
+  var form = document.getElementById('contactForm');
+      if (form) form.reset();
+      
 });

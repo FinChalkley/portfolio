@@ -46,13 +46,16 @@ body {
   z-index: -1;       
 }
 
+.dark-text {
+  color: var(--primary-color-dark);
+}
+
 /* -------------------- NAVIGATION -------------------- */
 nav {
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--background-dark);
   z-index: 99;
 }
 
@@ -177,7 +180,7 @@ ul li a:hover {
 
 .title span {
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--primary-color-dark);
 }
 
 .description {
