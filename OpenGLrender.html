@@ -26,18 +26,58 @@
       </ul>
     </div>
   </nav>
-
-  <section class="section" id="home">
+  
+  <section class="section">
     <div class="section__container">
       <div class="content">
         <h1 class="title">
           OpenGL Renderer
         </h1>
         <p class="description">
-          This is a University project to learn GLSL and the render pipeline with focus on graphical Programming.
+          This is a University project to learn GLSL and the render pipeline with focus on graphical Programming. 
+          With this project being split between two projects. 
+          The first is learning to build the rendering pipeline and the sencond to learn the post processing pipeline. 
         </p>
       </div>
     </div>
   </section>
+  <section class="section">
+    <div class="section__container">
 
-</body>
+      <div class="text-left">
+        <h2 class="subtitle">
+          rendering pipeline
+        </h2>
+        <p class="description">
+          The project is a simple OpenGL renderer that can render 3D models using GLSL shaders. 
+          This started by learning how to draw a 2D triangle on to a screen and add colour to the shape using a VAO(Vertex Array Object). However, This progressed onto 
+          adding blinn-phong lighting (spot lights, point lights,directional lights) and textures to the scene as well as turning the scene 3D.
+        </p>
+      </div>
+
+      <div class="image-top-right">
+        <img src="assets/basicRenderPipeline.png" alt="render pipeline" />
+      </div>
+
+      <div class="image-bottom-left">
+        <img src="assets/graphicsProgramming.gif" alt="post processing pipeline" />
+      </div>
+
+      <div class="text-right">
+        <h2 class="subtitle">
+          post processing pipeline
+        </h2>
+        <p class="description">
+          The post processing project was learning how to use frame buffers to render the scene to a texture and then apply post processing effects to the scene.
+          This started with using the uni built renderer and some models for us to add to the scene. Then adding a post processing
+          manager as well as effects to the scene such as fog, depth of field, shadows and chromatic aberration.
+          This then progressed on to adding other features such as making the terrain read from a hieght map, adding a skybox, 
+          bildording and particles effect sytems with SSBOs.
+        </p>
+      </div>
+
+    </div>
+  </section>
+    
+    
+  </body>
