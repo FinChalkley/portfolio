@@ -472,6 +472,28 @@ footer ul li a {
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
   }
+  #portfolio .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-card {
+    max-width: 100%;
+    width: 100%;
+  }
+  .project-card img {
+    height: auto;
+  }
+  .text-left,
+  .image-top-right,
+  .image-bottom-left,
+  .text-right {
+    grid-column: 1 !important;
+    grid-row: auto !important;
+  }
+  .image-top-right img,
+  .image-bottom-left img {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 
